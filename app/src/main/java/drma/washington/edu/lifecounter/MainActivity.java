@@ -63,11 +63,6 @@ public class MainActivity extends Activity {
         updatePlayerDisplay();
     }
 
-    @Override
-    protected void onDestroy(){
-
-    }
-
     // Draws display of the current number of players
     private void updatePlayerDisplay(){
         Log.i("MainActivity", "Updating player display");
